@@ -1,0 +1,8 @@
+image: espressif/idf:release-v4.3
+
+before_script:
+  - sed -i 's/-Wno-frame-address/-Wno-frame-address -fdiagnostics-color/g' /opt/esp/idf/tools/cmake/toolchain-esp32.cmake
+
+build:
+  script:
+    - idf.py build

@@ -1,0 +1,5 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.default.compilerPath": "C:\\Espressif\\tools\\xtensa-esp32-elf\\esp-2022r1-11.2.0\\xtensa-esp32-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+  "idf.adapterTargetName": "esp32"
+}
