@@ -16,7 +16,6 @@ This repository contains I2C drivers for the SGP41 sensor to communicate with th
     - `sgp41_measure_raw_signals`: Initiates raw signal measurement with default parameters (humidity compensation disabled).
     - `sgp41_turn_heater_off`: Powers down the sensor's heater and enters idle mode.
 
-Note: This project leveraged the BMP-180 I2C example as a foundation. https://github.com/tomtor/ulp-i2c
 
 ### Low Power Algorithm For Measurements
 - Optimizes power consumption by turning off the heater after each measurement.
@@ -33,5 +32,6 @@ The sequence of the measurements includes:
 - Subroutine for storing SRAW (Sensor Raw) values and CRC (Cyclic Redundancy Check) results.
 - Efficient data organization with dynamic memory location adjustment.
 
-
+# Credits
+This project leveraged the BMP-180 I2C example as a foundation. https://github.com/tomtor/ulp-i2c
 
